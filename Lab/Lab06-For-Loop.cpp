@@ -28,11 +28,11 @@ int main() {
     {
         if (i % 2 == 0)
         {
-            printf(" %d ",i);
+            printf("Series:  %d ",i);
         }
         N = i * 0;
     }
-    printf("Series:  %d ",N);
+    printf("  %d ",N);
 
     }
     else{
