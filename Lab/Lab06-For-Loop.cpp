@@ -20,18 +20,18 @@
 int main() {
 
     int N,i;
-    printf("Enter value : ");
+    printf("Enter value :");
     scanf("%d",&N);
     if ( N % 2 == 1){
-        printf("Series: ");
+        printf("Series:");
         for (i = 1 ; i <= N; i += 2){
-        printf(" %d ",i);
+        printf(" %d",i);
     }
     }
     else{
-        printf("Series: ");
+        printf("Series:");
         for (i = N; i >= 0 ; i -= 2){
-        printf(" %d ",i);
+        printf(" %d",i);
    }
     }
     return 0 ;
