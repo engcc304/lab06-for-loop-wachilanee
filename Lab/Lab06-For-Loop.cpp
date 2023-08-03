@@ -32,17 +32,17 @@ int main() {
         }
         N = i * 0;
     }
-    printf(" %d ",N);
+    printf("Series:  %d ",N);
 
     }
     else{
         for (size_t i = 1; i <= N; i+=2){
         if (i % 2 == 1)
             {
-                printf(" %d ",i);
+                printf("Series:  %d ",i);
             }
         else{
-            printf(" %d  ",i);
+            printf("Series:  %d  ",i);
         }    
    }
     }
