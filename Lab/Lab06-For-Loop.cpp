@@ -20,7 +20,7 @@
 int main() {
 
     int N,i;
-    printf("Please Enter Number : ");
+    printf("Enter value : ");
     scanf("%d",&N);
     if ( N % 2 == 1){
         printf("Series: ");
