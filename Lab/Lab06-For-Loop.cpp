@@ -28,7 +28,7 @@ int main() {
     {
         if (i % 2 == 0)
         {
-            printf("Series:  %d ",i);
+            printf(" %d ",i);
         }
         N = i * 0;
     }
@@ -39,11 +39,8 @@ int main() {
         for (size_t i = 1; i <= N; i+=2){
         if (i % 2 == 1)
             {
-                printf("Series:  %d ",i);
+                printf(" %d ",i);
             }
-        else{
-            printf("Series:  %d  ",i);
-        }    
    }
     }
     return 0 ;
