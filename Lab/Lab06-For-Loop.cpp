@@ -19,7 +19,32 @@
 
 int main() {
 
-    //--| YOUR CODE HERE
+    int N;
+    printf("Please Enter Number : ");
+    scanf("%d",&N);
+    if ( N % 2 == 0)
+    {
+        for (size_t i = N; i > 0; i--)
+    {
+        if (i % 2 == 0)
+        {
+            printf(" %d ",i);
+        }
+        N = i * 0;
+    }
+    printf(" %d ",N);
 
+    }
+    else{
+        for (size_t i = 1; i <= N; i+=2){
+        if (i % 2 == 1)
+            {
+                printf(" %d ",i);
+            }
+        else{
+            printf(" %d  ",i);
+        }    
+   }
+    }
     return 0 ;
 }//end main function
