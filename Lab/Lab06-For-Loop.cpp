@@ -24,6 +24,7 @@ int main() {
     scanf("%d",&N);
     if ( N % 2 == 0)
     {
+        printf("Series: ");
         for (size_t i = N; i > 0; i--)
     {
         if (i % 2 == 0)
@@ -36,6 +37,7 @@ int main() {
 
     }
     else{
+        printf("Series: ");
         for (size_t i = 1; i <= N; i+=2){
         if (i % 2 == 1)
             {
@@ -43,5 +45,7 @@ int main() {
             }
    }
     }
+    
+    
     return 0 ;
 }//end main function
