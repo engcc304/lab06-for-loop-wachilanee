@@ -22,27 +22,16 @@ int main() {
     int N;
     printf("Please Enter Number : ");
     scanf("%d",&N);
-    if ( N % 2 == 0)
-    {
+    if ( N % 2 == 1){
         printf("Series: ");
-        for (size_t i = N; i > 0; i--)
-    {
-        if (i % 2 == 0)
-        {
-            printf(" %d ",i);
-        }
-        N = i * 0;
+        for (size_t i = 1 ; i <= N; i+=2){
+        printf(" %d ",i);
     }
-    printf("  %d ",N);
-
     }
     else{
         printf("Series: ");
-        for (size_t i = 1; i <= N; i+=2){
-        if (i % 2 == 1)
-            {
-                printf(" %d ",i);
-            }
+        for (size_t i = N; i >= 0 ; i -= 2){
+        printf(" %d ",i);
    }
     }
     
