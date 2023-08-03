@@ -19,18 +19,18 @@
 
 int main() {
 
-    int N;
+    int N,i;
     printf("Please Enter Number : ");
     scanf("%d",&N);
     if ( N % 2 == 1){
         printf("Series: ");
-        for (size_t i = 1 ; i <= N; i+=2){
+        for (i = 1 ; i <= N; i += 2){
         printf(" %d ",i);
     }
     }
     else{
         printf("Series: ");
-        for (size_t i = N; i >= 0 ; i -= 2){
+        for (i = N; i >= 0 ; i -= 2){
         printf(" %d ",i);
    }
     }
